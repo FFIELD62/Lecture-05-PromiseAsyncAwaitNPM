@@ -13,4 +13,4 @@ const promise = new Promise ((resolve , reject) => {
 promise.then(
     (res) => console.log(res) , 
     (err) => console.log(err)
-);
+) ;
