@@ -3,7 +3,7 @@ function who() {
         setTimeout(() => {
             resolve("World");
         }, 200);
-    });
+    }) ;
 }
 
 function what() {
