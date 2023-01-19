@@ -4,7 +4,7 @@
 
  setTimeout(callback, 3000); //wait 3 seconds
 
- // cascading problem
+ // cascading  problem
  longRunningOperation(() => {
     anotherLongRunningOperation(() => {
         yetAnother(() => {
